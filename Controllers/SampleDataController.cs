@@ -26,6 +26,12 @@ namespace fitness_studio.Controllers
             });
         }
 
+        [HttpGet("[action]")]
+        public IEnumerable<string> WheatherConditions()
+        {
+            return Summaries;
+        }
+
         public class WeatherForecast
         {
             public string DateFormatted { get; set; }
