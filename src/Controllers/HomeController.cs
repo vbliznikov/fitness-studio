@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace fitness_studio.Controllers
+namespace FitnessStudio.Controllers
 {
     public class HomeController : Controller
     {
